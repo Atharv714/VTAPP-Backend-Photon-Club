@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+</head>
+<body>
+
+<h1>Event Registration Form</h1>
+
+<form action="/" method="post" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="registration_number">Registration Number:</label>
+    <input type="text" id="registration_number" name="registration_number"><br>
+
+    <label for="contact_number">Contact Number:</label>
+    <input type="tel" id="contact_number" name="contact_number" required><br>
+
+    <label for="event">Select Event:</label>
+    <select id="event" name="event" required>
+        <option value="Radium Galla">Radium Galla - ₹70</option>
+        <option value="Monopoly">Monopoly - ₹50</option>
+    </select><br>
+
+    <label for="screenshot">Upload Screenshot:</label>
+    <input type="file" id="screenshot" name="screenshot"><br>
+
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
